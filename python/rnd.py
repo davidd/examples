@@ -2,6 +2,6 @@
 
 import random
 
-#print random.getstate()
+# print random.getstate()
 x = random.getrandbits(1024)
 print x

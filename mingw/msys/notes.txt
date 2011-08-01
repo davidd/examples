@@ -1,0 +1,9 @@
+Some good notes here:
+
+  http://ingar.satgnu.net/devenv/mingw32/base.html
+
+rxvt, edit /c/MinGW/msys/1.0/msys.bat
+
+  start %WD%rxvt -backspacekey ^H -sl 2500 -fg gray -bg black -sr -fn Courier-12 -tn msys -geometry 120x50+50+50 -e /bin/sh --login -i
+
+Make a link to "msys.bat --rxvt"
